@@ -215,17 +215,6 @@ Expected output: **9 passed in ~5 seconds** covering:
 
 ---
 
-## ⚙️ AI Provider Configuration (Optional)
-
-The system works **100% offline with zero API keys required**. If you wish to enable Google Gemini generative answering:
-
-1. Create a `.env` file in the root or `backend/` directory:
-   ```env
-   LLM_PROVIDER=gemini
-   LLM_API_KEY=your_google_gemini_api_key_here
-   LLM_MODEL=gemini-1.5-flash
-   ```
-2. Restart the backend server. The `/api/health` status will now reflect `llm_status: online (Gemini API)`.
 
 ---
 
