@@ -1,0 +1,691 @@
+{
+  "version": "1.0",
+  "saved_at": "2026-10-15T15:48:20.350572",
+  "total_chunks": 76,
+  "chunks": [
+    {
+      "chunk_id": "doc_1_c1",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "# Constructive Feedback Transformation Guide: 22 Before-and-After Exemplars\n\nThis reference demonstrates how students can transform emotional, vague, or non-actionable complaints into high-value constructive feedback that instructors and department heads can directly implement.\n\n---\n\n### Category 1: Teaching Clarity & Explanation",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069448"
+    },
+    {
+      "chunk_id": "doc_1_c2",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "### Category 1: Teaching Clarity & Explanation\n\n#### Case 1: Mathematical Proofs\n- **Vague / Unconstructive**: \"The lectures are confusing and boring.\"\n- **Constructive Transformation**: \"Adding a step-by-step whiteboard derivation and one solved numerical example after each theorem would help students follow the mathematical logic before attempting problem sheets.\"\n- **Actionable Value**: Gives the faculty a specific pedagogical technique (worked examples) to insert between theory and homework.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069467"
+    },
+    {
+      "chunk_id": "doc_1_c3",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 2: Monotone Reading\n- **Vague / Unconstructive**: \"The professor just reads the slides.\"\n- **Constructive Transformation**: \"It would be much more engaging if the slides contained diagrams and architecture charts rather than dense text paragraphs, allowing lecture time for interactive Q&A and code tracing.\"\n- **Actionable Value**: Focuses on instructional slide design and classroom interaction.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069477"
+    },
+    {
+      "chunk_id": "doc_1_c4",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 3: High-Level Abstractions\n- **Vague / Unconstructive**: \"I have no idea what this subject is even used for.\"\n- **Constructive Transformation**: \"Beginning each unit with a 5-minute real-world case study (e.g., how Netflix uses distributed hashing) would contextualize theoretical algorithms within industry software engineering.\"\n- **Actionable Value**: Identifies the need for practical motivation at the start of new units.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069485"
+    },
+    {
+      "chunk_id": "doc_1_c5",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 4: Audio & Board Legibility\n- **Vague / Unconstructive**: \"Can't hear or see anything from the back.\"\n- **Constructive Transformation**: \"Using the lapel microphone consistently and increasing the IDE font size during live coding demonstrations would ensure equal visibility for students seated in the rear rows.\"\n- **Actionable Value**: Clear technical adjustment for classroom equipment and font settings.\n\n---\n\n### Category 2: Practical & Laboratory Sessions",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069494"
+    },
+    {
+      "chunk_id": "doc_1_c6",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "### Category 2: Practical & Laboratory Sessions\n\n#### Case 5: Outdated Lab Exercises\n- **Vague / Unconstructive**: \"The lab assignments are stupid and useless.\"\n- **Constructive Transformation**: \"Updating the lab manual to use modern frameworks (e.g., replacing manual C-socket raw calls with standard REST/JSON libraries) would better prepare us for software development internships.\"\n- **Actionable Value**: Recommends modern tooling while validating the importance of the topic.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069502"
+    },
+    {
+      "chunk_id": "doc_1_c7",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 6: Lack of Debugging Guidance\n- **Vague / Unconstructive**: \"The lab assistants don't do anything.\"\n- **Constructive Transformation**: \"Having lab instructors explain common compiler error patterns and runtime crash troubleshooting at the start of the session would empower students to debug independently.\"\n- **Actionable Value**: Requests debugging walkthroughs rather than attacking staff.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069511"
+    },
+    {
+      "chunk_id": "doc_1_c8",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 7: Pre-Lab Setup Barriers\n- **Vague / Unconstructive**: \"Software never works on college computers.\"\n- **Constructive Transformation**: \"Providing a standardized Docker container or virtual environment setup script prior to Lab 1 would eliminate environment configuration discrepancies between student laptops and lab machines.\"\n- **Actionable Value**: Suggests standard modern engineering practice (Docker/venv containerization).",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069519"
+    },
+    {
+      "chunk_id": "doc_1_c9",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 8: Code Review Feedback\n- **Vague / Unconstructive**: \"Lab marks were cut for no reason.\"\n- **Constructive Transformation**: \"Publishing a concise grading rubric detailing points allocated for code efficiency, comments, and test-case coverage would provide clarity on how lab grades are evaluated.\"\n- **Actionable Value**: Encourages transparent rubric deployment.\n\n---\n\n### Category 3: Course Pace & Scheduling",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069527"
+    },
+    {
+      "chunk_id": "doc_1_c10",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "### Category 3: Course Pace & Scheduling\n\n#### Case 9: Rapid Topic Transitions\n- **Vague / Unconstructive**: \"Slow down! You're going way too fast.\"\n- **Constructive Transformation**: \"Spending two lecture hours on graph traversal algorithms before jumping directly into minimum spanning trees would solidify foundational traversal concepts for students encountering them for the first time.\"\n- **Actionable Value**: Pinpoints exact prerequisite topics that need breathing room.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069535"
+    },
+    {
+      "chunk_id": "doc_1_c11",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 10: Uneven Syllabus Distribution\n- **Vague / Unconstructive**: \"The first half was sleepy and the second half was rushed.\"\n- **Constructive Transformation**: \"Rebalancing the timeline to spend less time on introductory overview slides in August would reserve sufficient class time for the complex concurrency modules in November.\"\n- **Actionable Value**: Suggests course calendar reallocation.\n\n---\n\n### Category 4: Assignments & Workload",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069544"
+    },
+    {
+      "chunk_id": "doc_1_c12",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "### Category 4: Assignments & Workload\n\n#### Case 11: Clustered Deadlines\n- **Vague / Unconstructive**: \"Way too many assignments due on the same day.\"\n- **Constructive Transformation**: \"Staggering homework assignment deadlines across alternate weeks and coordinating due dates with the Departmental Lab evaluation schedule would prevent academic burnout.\"\n- **Actionable Value**: Proposes department-level coordination.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069552"
+    },
+    {
+      "chunk_id": "doc_1_c13",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 12: Ambiguous Problem Statements\n- **Vague / Unconstructive**: \"The assignment questions make no sense.\"\n- **Constructive Transformation**: \"Including sample input/output test cases and specifying edge case behavior (e.g., empty arrays or negative values) in assignment specifications would prevent ambiguities.\"\n- **Actionable Value**: Industry-standard specification writing practice.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069561"
+    },
+    {
+      "chunk_id": "doc_1_c14",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 13: Group Project Free-Riding\n- **Vague / Unconstructive**: \"Group projects suck because people don't work.\"\n- **Constructive Transformation**: \"Incorporating individual Git commit metrics or confidential peer evaluation rubrics into group project grading would ensure accountability across team members.\"\n- **Actionable Value**: Introduces equitable peer-assessment mechanisms.\n\n---\n\n### Category 5: Learning Resources & Textbooks",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069569"
+    },
+    {
+      "chunk_id": "doc_1_c15",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "### Category 5: Learning Resources & Textbooks\n\n#### Case 14: Obsolete Textbooks\n- **Vague / Unconstructive**: \"The recommended book is terrible.\"\n- **Constructive Transformation**: \"Supplementing the 2005 prescribed textbook with curated documentation links and interactive online sandboxes would help students grasp contemporary syntax.\"\n- **Actionable Value**: Suggests digital resources to supplement classic references.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069577"
+    },
+    {
+      "chunk_id": "doc_1_c16",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 15: Missing Lecture Slides\n- **Vague / Unconstructive**: \"We have nothing to study from.\"\n- **Constructive Transformation**: \"Uploading annotated lecture slides and whiteboard notes to the college LMS within 24 hours of each lecture would greatly aid students during weekend revision.\"\n- **Actionable Value**: Clear SLA (24-hour upload window) for study material distribution.\n\n---\n\n### Category 6: Classroom Environment & Inclusivity",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069584"
+    },
+    {
+      "chunk_id": "doc_1_c17",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 16: Answering Questions Publicly\n- **Vague / Unconstructive**: \"The teacher gets annoyed when we ask doubts.\"\n- **Constructive Transformation**: \"Designating a 10-minute dedicated Q&A buffer at the conclusion of class or using an anonymous digital question board (like Slido) would encourage shy students to clarify misunderstandings without fear of embarrassment.\"\n- **Actionable Value**: Proposes an anonymous digital buffer for classroom safety.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069592"
+    },
+    {
+      "chunk_id": "doc_1_c18",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 17: Interactive Engagement\n- **Vague / Unconstructive**: \"Classes are totally one-way.\"\n- **Constructive Transformation**: \"Embedding two interactive multiple-choice check-in questions using live polls midway through the lecture would help keep attention focused and gauge class comprehension.\"\n- **Actionable Value**: Introduces active retrieval practice.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069600"
+    },
+    {
+      "chunk_id": "doc_1_c19",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 18: Feedback Closing Loop\n- **Vague / Unconstructive**: \"Feedback forms are pointless because nothing changes.\"\n- **Constructive Transformation**: \"Spending 5 minutes at mid-semester summarizing recurring feedback themes and outlining two concrete pedagogical adjustments would build institutional trust.\"\n- **Actionable Value**: Closes the feedback loop constructively.\n\n---\n\n### Category 7: Examinations & Assessments",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069606"
+    },
+    {
+      "chunk_id": "doc_1_c20",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "### Category 7: Examinations & Assessments\n\n#### Case 19: Disparity Between Homework and Exams\n- **Vague / Unconstructive**: \"The exam was totally out of syllabus.\"\n- **Constructive Transformation**: \"Aligning the difficulty of in-class practice problems with the higher-order analytical questions featured on the semester exam would better prepare us for the test format.\"\n- **Actionable Value**: Promotes assessment alignment (Bloom's Taxonomy).",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069613"
+    },
+    {
+      "chunk_id": "doc_1_c21",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 20: Post-Exam Review\n- **Vague / Unconstructive**: \"I don't know why I got these marks.\"\n- **Constructive Transformation**: \"Holding an exam post-mortem review where the solution key and common pitfalls are walked through would turn the test into an educational learning opportunity.\"\n- **Actionable Value**: Turns summative assessment into formative growth.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069620"
+    },
+    {
+      "chunk_id": "doc_1_c22",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 21: Practical Viva Preparation\n- **Vague / Unconstructive**: \"The viva was totally random.\"\n- **Constructive Transformation**: \"Publishing a guide of core viva focus areas and recommended technical vocabulary two weeks prior to the exam would give students clear orientation.\"\n- **Actionable Value**: Clear expectations framework.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069627"
+    },
+    {
+      "chunk_id": "doc_1_c23",
+      "document_id": 1,
+      "title": "Constructive Feedback Examples",
+      "category": "Feedback Fundamentals",
+      "text": "#### Case 22: Hinglish Vague to Constructive\n- **Vague / Unconstructive**: \"Sir ki speed bohot zyada hai, notes bhi nahi milte.\"\n- **Constructive Transformation**: \"Sir, if we can pause for 2 minutes after explaining complex code blocks to note key concepts, and get weekly PDF notes uploaded, it will help students keep pace.\"\n- **Actionable Value**: Respectful pacing and note-taking collaboration.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.069633"
+    },
+    {
+      "chunk_id": "doc_2_c1",
+      "document_id": 2,
+      "title": "Feedback Fundamentals",
+      "category": "Feedback Fundamentals",
+      "text": "# Student Feedback Fundamentals & Best Practices",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.132716"
+    },
+    {
+      "chunk_id": "doc_2_c2",
+      "document_id": 2,
+      "title": "Feedback Fundamentals",
+      "category": "Feedback Fundamentals",
+      "text": "# Student Feedback Fundamentals & Best Practices\n\n## 1. Purpose and Philosophy of Student Feedback\nStudent feedback is a foundational mechanism for pedagogical growth, institutional accountability, and continuous academic enhancement. Rather than serving as an punitive audit, constructive student feedback establishes a productive dialogue between learners and educators. When students articulate what accelerates or hinders their comprehension, instructors can calibrate their teaching speed, clarify difficult concepts, enhance laboratory experiments, and refine instructional materials.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.132793"
+    },
+    {
+      "chunk_id": "doc_2_c3",
+      "document_id": 2,
+      "title": "Feedback Fundamentals",
+      "category": "Feedback Fundamentals",
+      "text": "## 2. Constructive vs. Unconstructive Feedback\nConstructive feedback focuses on observable academic activities, specific course modules, and actionable suggestions. Unconstructive feedback, conversely, tends to be emotionally charged, vague, or focused on personal traits rather than pedagogical techniques.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.132803"
+    },
+    {
+      "chunk_id": "doc_2_c4",
+      "document_id": 2,
+      "title": "Feedback Fundamentals",
+      "category": "Feedback Fundamentals",
+      "text": "- **Constructive Example**: \"The theoretical proofs in unit 3 were rigorous, but working through two complete numerical examples on the whiteboard before introducing homework assignments would significantly improve problem-solving confidence.\"\n- **Unconstructive Example**: \"The professor was bad and the class was boring.\"",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.132813"
+    },
+    {
+      "chunk_id": "doc_2_c5",
+      "document_id": 2,
+      "title": "Feedback Fundamentals",
+      "category": "Feedback Fundamentals",
+      "text": "Key tenets of constructive feedback include:\n- **Specificity**: Reference particular lectures, topics, problem sets, or laboratory sessions.\n- **Actionability**: Propose what could be adjusted (e.g., adding summary slides, pacing adjustments, sharing starter code).\n- **Objectivity**: Maintain a respectful, professional tone focused on learning outcomes.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.132822"
+    },
+    {
+      "chunk_id": "doc_2_c6",
+      "document_id": 2,
+      "title": "Feedback Fundamentals",
+      "category": "Feedback Fundamentals",
+      "text": "## 3. Interpreting the 5-Point Rating Scales\nThe Student Feedback Assistant utilizes a standardized 1 to 5 metric across four distinct core dimensions:",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.132831"
+    },
+    {
+      "chunk_id": "doc_2_c7",
+      "document_id": 2,
+      "title": "Feedback Fundamentals",
+      "category": "Feedback Fundamentals",
+      "text": "1. **Overall Satisfaction**:\n   - **5 (Excellent)**: Exceptional educational experience exceeding learning objectives.\n   - **4 (Good)**: Solid course execution with minor, easily addressable areas for growth.\n   - **3 (Satisfactory / Average)**: Meets standard syllabus requirements but lacks depth, interactive pacing, or active engagement.\n   - **2 (Needs Improvement)**: Noticeable deficiencies in delivery, resource availability, or clarity.\n   - **1 (Unsatisfactory)**: Significant breakdowns in conceptual delivery, lab infrastructure, or syllabus coverage.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.132840"
+    },
+    {
+      "chunk_id": "doc_2_c8",
+      "document_id": 2,
+      "title": "Feedback Fundamentals",
+      "category": "Feedback Fundamentals",
+      "text": "2. **Teaching Clarity**: Evaluates how clearly instructors deconstruct complex theorems, structure lecture narratives, handle student questions, and maintain whiteboard or slide legibility.\n3. **Course Content & Syllabus Relevance**: Evaluates whether course milestones match industry practices, prerequisite knowledge, textbook references, and progressive difficulty curves.\n4. **Practical & Laboratory Sessions**: Assesses hands-on experimentation, programming tools, hardware equipment availability, step-by-step guidance, and lab assistant support.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.133154"
+    },
+    {
+      "chunk_id": "doc_2_c9",
+      "document_id": 2,
+      "title": "Feedback Fundamentals",
+      "category": "Feedback Fundamentals",
+      "text": "## 4. Privacy, Ethics, and Responsible Feedback Submission\nThe institution provides an **Anonymous Submission** mode for all students.\n- **How Anonymity Works**: When the anonymous toggle is selected, the application disconnects the user identifier (`user_id = null`) in the database record. The feedback comment and ratings are persisted without any linkage to the student's personal account, name, or institutional email.\n- **Responsible Use**: Anonymity is intended to foster psychological safety and candid honesty, not to permit profanity, harassment, or defamatory remarks. All comments undergo automated NLP screening.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.133164"
+    },
+    {
+      "chunk_id": "doc_3_c1",
+      "document_id": 3,
+      "title": "Learning Guidance",
+      "category": "Educational Guidance",
+      "text": "# Learning & Academic Guidance (General Educational Principles)\n\n*Note: This document provides general educational study techniques and learning strategies. It does not replace official institutional examination regulations or university circulars.*",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.201706"
+    },
+    {
+      "chunk_id": "doc_3_c2",
+      "document_id": 3,
+      "title": "Learning Guidance",
+      "category": "Educational Guidance",
+      "text": "## 1. Evidence-Based Study Planning and Time Management\nNavigating rigorous engineering and computing curricula requires deliberate scheduling rather than last-minute cramming:\n- **Distributed Practice (Spaced Repetition)**: Review lecture concepts 24 hours, 3 days, and 1 week after presentation. This shifts working memory into long-term retention.\n- **The Pomodoro Technique**: Structure technical study sessions into 25-minute uninterrupted sprints followed by 5-minute cognitive breaks, preventing cognitive fatigue during complex programming tasks.\n- **Time Boxing for Practical Labs**: Allocate separate weekly blocks for pre-lab reading, experimental coding, and lab record documentation rather than trying to perform all tasks within the lab period.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.201731"
+    },
+    {
+      "chunk_id": "doc_3_c3",
+      "document_id": 3,
+      "title": "Learning Guidance",
+      "category": "Educational Guidance",
+      "text": "## 2. Bridging Practical Hands-On Skills and Theoretical Fundamentals\nIn technical subjects such as Data Structures, Computer Networks, and Operating Systems, theory without hands-on implementation remains abstract:\n- **Code the Algorithms**: If an algorithm is explained in class (e.g., Dijkstra's shortest path or binary tree balancing), implement it in your preferred IDE from scratch without looking at ready-made solutions.\n- **Visualizing State Changes**: Trace variables on paper through loop iterations before debugging with print statements or IDE debuggers.\n- **Connect Theory to System Behavior**: When studying memory paging, inspect active memory usage in your OS task manager or write a minimal C script to inspect pointer memory addresses.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.201742"
+    },
+    {
+      "chunk_id": "doc_3_c4",
+      "document_id": 3,
+      "title": "Learning Guidance",
+      "category": "Educational Guidance",
+      "text": "## 3. Mastering Difficult Technical Concepts (Feynman Technique)\nWhen confronted with dense mathematical formulations or distributed system protocols:\n1. State the concept in plain, simple language as if teaching a first-year junior student.\n2. Identify the exact step where your explanation becomes vague or relies on technical jargon.\n3. Return to reference materials, lecture recordings, or textbooks to clarify that exact boundary.\n4. Craft an illustrative real-world analogy (e.g., comparing database transactions and ACID properties to an ATM money withdrawal).",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.201752"
+    },
+    {
+      "chunk_id": "doc_3_c5",
+      "document_id": 3,
+      "title": "Learning Guidance",
+      "category": "Educational Guidance",
+      "text": "## 4. Constructive Classroom Engagement and Query Resolution\n- **Formulate Focused Questions**: Instead of asking \"I didn't understand anything in this lecture,\" pinpoint the inflection point: \"I followed the BFS graph traversal until step 4, but why did we mark the node visited before enqueueing rather than after?\"\n- **Pre-Lecture Reading**: Skimming textbook chapter subheadings for 10 minutes prior to lecture dramatically improves retention and active note-taking.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.201761"
+    },
+    {
+      "chunk_id": "doc_4_c1",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "# Student Feedback Assistant: System Architecture & Technical Documentation",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254178"
+    },
+    {
+      "chunk_id": "doc_4_c2",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "## 1. Executive Summary & Purpose\nThe Student Feedback Assistant is a full-stack, enterprise-grade educational intelligence platform developed for college continuous internal evaluation (CIE). The system bridges the gap between raw student feedback and actionable academic leadership. It enables students to evaluate courses across specific pedagogical aspects (Teaching Clarity, Course Content, and Practical Sessions) and query institutional knowledge through an AI-powered conversational interface. For academic administrators, the system provides real-time sentiment distribution, thematic clustering, rating trends, and CSV data export.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254195"
+    },
+    {
+      "chunk_id": "doc_4_c3",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "## 2. Architectural Blueprint & Technology Stack\nThe platform adopts a decoupled client-server architecture:\n- **Frontend Layer**: Built with React 18, Vite, TypeScript, Tailwind CSS, Lucide React icons, and Recharts. Communication is conducted via asynchronous REST calls authenticated through JSON Web Tokens (JWT).",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254204"
+    },
+    {
+      "chunk_id": "doc_4_c4",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "- **Backend Application Layer**: FastAPI (Python 3.10+) running an asynchronous event loop, with strict Pydantic schemas for request validation, data serialization, and role-based security guards. - **Persistence Layer**: Relational database managed through SQLAlchemy ORM, backed locally by SQLite with thread safety, foreign key constraints, and performance indexes.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254212"
+    },
+    {
+      "chunk_id": "doc_4_c5",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "- **NLP & Sentiment Analysis Engine**: Domain-enhanced VADER (Valence Aware Dictionary and sEntiment Reasoner) with Hinglish lexical extensions, providing rule-based explainability, compound valence scoring, and thematic tag extraction. - **RAG & Knowledge Retrieval**: Vector-indexed retrieval augmented generation. Documents and FAQs are chunked, normalized, and indexed into a local vector store. Queries are evaluated via semantic similarity matching with threshold filtering.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254221"
+    },
+    {
+      "chunk_id": "doc_4_c6",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "- **AI Provider Layer**: Modular LLM provider abstraction supporting Google Gemini API (free tier) with zero-key fallback mode that serves grounded, verified source passages without hallucination.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254229"
+    },
+    {
+      "chunk_id": "doc_4_c7",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "## 3. End-to-End Data Flow: From Form Submission to Knowledge Retrieval\n1. **Feedback Ingestion**:\n   - The student completes the multi-dimensional evaluation form. - Frontend performs client-side field validation and rating checks. - A cryptographic SHA-256 hash of `[subject_id + content + rating]` is verified on the backend to prevent accidental duplicate clicks. - The feedback is persisted into the `feedback` table. If the anonymous toggle is active, `user_id` is stored as `null`. 2.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254237"
+    },
+    {
+      "chunk_id": "doc_4_c8",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "**Synchronous Sentiment & Theme Tagging**:\n   - The text comment passes through `SentimentEngine.analyze()`. - Polarity scores are calculated: Positive (compound >= 0.15), Negative (compound <= -0.15), Mixed (pos & neg >= 0.15), or Neutral. - Domain regex matches extract academic tags: `teaching_clarity`, `practical_sessions`, `course_content`, `pace_and_workload`, `classroom_environment`, `exams_and_evaluation`. - Results are committed to the `sentiment_results` table with foreign key linkage. 3.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254244"
+    },
+    {
+      "chunk_id": "doc_4_c9",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "**Analytics Aggregation**:\n   - When administrators access the dashboard, direct SQL aggregations compute exact rating distributions, subject means, and chronological trend series. LLMs are never used to invent numbers. 4. **Conversational Query Resolution**:\n   - User inputs a question in the AI Chat Assistant.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254252"
+    },
+    {
+      "chunk_id": "doc_4_c10",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "- **Smart Query Router** classifies user intent into:\n     - **Statistical Intent**: Triggered by queries like \"What is the average rating for Operating Systems?\" -> Dispatches direct SQL query, returns exact numbers. - **Knowledge / Educational Intent**: Triggered by queries like \"What is sentiment analysis?\" or \"How to write constructive feedback?\" -> Searches the vector store and FAQ database, retrieves top-k chunks, cites source titles, and crafts a grounded explanation.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254261"
+    },
+    {
+      "chunk_id": "doc_4_c11",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "- **General Guidance**: Formulates pedagogical advice governed by safety guardrails.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254269"
+    },
+    {
+      "chunk_id": "doc_4_c12",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "## 4. Ingesting Documents & Adding FAQs\n- **Knowledge Documents**: Administrators can upload Markdown (`.md`), Plain Text (`.txt`), PDF (`.pdf`), and JSON (`.json`) files through the Knowledge Management interface. Documents are validated for size (< 10MB), text-extracted, chunked into ~500 character units with overlap, hashed for deduplication, and indexed into the vector store.\n- **FAQ Management**: FAQs can be added, updated, or toggled active/inactive via `/api/knowledge/faqs`. FAQs are matched using direct semantic indexing.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254276"
+    },
+    {
+      "chunk_id": "doc_4_c13",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "## 5. Configuring AI Providers & Fallback Mode\n- The system reads `LLM_PROVIDER` and `LLM_API_KEY` from `.env`.\n- Supported providers:\n  - `gemini`: Google Gemini API using `gemini-1.5-flash` or `gemini-2.0-flash`.\n  - `fallback`: Offline mode when no API key is supplied. In fallback mode, the assistant retrieves the most relevant verified document passages and displays them with source badges, explicitly stating: *\"AI generation unavailable (no API key configured). Showing verified retrieved passages.\"*",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254284"
+    },
+    {
+      "chunk_id": "doc_4_c14",
+      "document_id": 4,
+      "title": "Project Documentation",
+      "category": "Feedback Fundamentals",
+      "text": "## 6. Troubleshooting Common Issues\n- **ChromaDB / Package Lock**: If native C-extensions encounter file locks on Windows, the system gracefully shifts to the integrated pure-Python cosine-similarity vector store.\n- **Duplicate Feedback Warning (409 Conflict)**: Occurs if identical feedback is submitted twice for the same subject. Changing the comment text or rating allows re-submission.\n- **CORS Errors**: Verify that the frontend origin (`http://localhost:5173`) is listed in `settings.CORS_ORIGINS`.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.254292"
+    },
+    {
+      "chunk_id": "doc_5_c1",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "# Comprehensive Sentiment Analysis Guide & Benchmark Patterns",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339137"
+    },
+    {
+      "chunk_id": "doc_5_c2",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "## 1. How Sentiment Analysis Functions in the Assistant\nThe Student Feedback Assistant analyzes subjective written commentary to classify emotional polarity into **Positive**, **Neutral**, **Negative**, or **Mixed**. The application applies a domain-calibrated VADER (Valence Aware Dictionary and sEntiment Reasoner) rule-based engine, fortified with an academic and Hinglish lexicon. It quantifies sentiment compound scores ranging from -1.0 (most negative) to +1.0 (most positive) and maps them to semantic confidence metrics.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339154"
+    },
+    {
+      "chunk_id": "doc_5_c3",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "## 2. Benchmark Annotated Feedback Corpus (22 Case Studies)",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339163"
+    },
+    {
+      "chunk_id": "doc_5_c4",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 1: Clear Positive (Pacing & Clarity)\n- **Feedback Text**: \"The professor's explanation of dynamic programming was exceptionally clear and the step-by-step visualizations helped me master memoization.\"\n- **Expected Sentiment**: Positive\n- **Primary Theme**: Teaching Clarity\n- **Explanation**: Strong positive valence words (\"exceptionally clear\", \"helped me master\") yield high compound score (> 0.65).\n- **Engine Behavior**: High confidence positive classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339172"
+    },
+    {
+      "chunk_id": "doc_5_c5",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 2: Clear Negative (Pace & Overload)\n- **Feedback Text**: \"Lectures are rushed, slides are overloaded with raw text, and no time is given to ask questions during class.\"\n- **Expected Sentiment**: Negative\n- **Primary Theme**: Teaching Clarity / Pace\n- **Explanation**: Multiple negative descriptors (\"rushed\", \"overloaded\", \"no time\") produce strong negative valence.\n- **Engine Behavior**: High confidence negative classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339180"
+    },
+    {
+      "chunk_id": "doc_5_c6",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 3: Balanced Mixed Sentiment\n- **Feedback Text**: \"The professor explains theoretical concepts with remarkable passion, but the laboratory experiments feel disjointed and have faulty equipment.\"\n- **Expected Sentiment**: Mixed\n- **Primary Theme**: Practical Sessions / Teaching Clarity\n- **Explanation**: Positive clause (\"remarkable passion\") counter-balanced by negative clause (\"disjointed\", \"faulty equipment\"). Compound sits near zero while pos and neg components are both elevated.\n- **Engine Behavior**: Correctly classified as Mixed sentiment.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339188"
+    },
+    {
+      "chunk_id": "doc_5_c7",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 4: Neutral Informational\n- **Feedback Text**: \"The syllabus followed the standard university textbook curriculum chapters 1 through 7 without any supplementary modules.\"\n- **Expected Sentiment**: Neutral\n- **Primary Theme**: Course Content\n- **Explanation**: Factual, descriptive statement devoid of emotional or evaluative sentiment modifiers.\n- **Engine Behavior**: Neutral classification with high neutral component score.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339197"
+    },
+    {
+      "chunk_id": "doc_5_c8",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 5: Short Hinglish Positive\n- **Feedback Text**: \"Sir bohot achha padhate hain, concepts ekdum crystal clear ho gaye!\"\n- **Expected Sentiment**: Positive\n- **Primary Theme**: Teaching Clarity\n- **Explanation**: Hinglish positive markers \"bohot achha\" and \"crystal clear\" trigger positive polarity multipliers.\n- **Engine Behavior**: Classified as Positive through enhanced Hinglish lexicon.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339205"
+    },
+    {
+      "chunk_id": "doc_5_c9",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 6: Short Hinglish Negative\n- **Feedback Text**: \"Lab me kuch samajh nahi aaya, systems are too slow and outdated.\"\n- **Expected Sentiment**: Negative\n- **Primary Theme**: Practical Sessions\n- **Explanation**: Negative Hinglish phrase \"kuch samajh nahi aaya\" paired with \"slow and outdated\" triggers negative classification.\n- **Engine Behavior**: Successfully caught as Negative.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339212"
+    },
+    {
+      "chunk_id": "doc_5_c10",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 7: Ambiguous / Polite Constructive\n- **Feedback Text**: \"The course is okay, but I think having more practice assignments could be beneficial for students.\"\n- **Expected Sentiment**: Neutral\n- **Primary Theme**: Course Content\n- **Explanation**: Gentle suggestion phrased with modal verbs (\"could be\", \"think\") without overt negative complaints.\n- **Engine Behavior**: Neutral to Mild Positive.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339220"
+    },
+    {
+      "chunk_id": "doc_5_c11",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 8: Hardware/Facility Frustration\n- **Feedback Text**: \"Half of the monitors in lab room 302 do not power on, making it impossible to run our compilation tests.\"\n- **Expected Sentiment**: Negative\n- **Primary Theme**: Practical Sessions\n- **Explanation**: Strong physical limitation terminology (\"impossible to run\", \"do not power on\").\n- **Engine Behavior**: Negative classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339228"
+    },
+    {
+      "chunk_id": "doc_5_c12",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 9: Ultra-Short Positive\n- **Feedback Text**: \"Great lectures! Mast teaching style.\"\n- **Expected Sentiment**: Positive\n- **Primary Theme**: Teaching Clarity\n- **Explanation**: Exclamatory positive tokens.\n- **Engine Behavior**: Positive classification with high confidence.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339236"
+    },
+    {
+      "chunk_id": "doc_5_c13",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 10: Ultra-Short Negative\n- **Feedback Text**: \"Bekar experience. Waste of time.\"\n- **Expected Sentiment**: Negative\n- **Primary Theme**: Overall Experience\n- **Explanation**: \"Bekar\" and \"Waste of time\" carry steep negative polarity penalties.\n- **Engine Behavior**: Negative classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339244"
+    },
+    {
+      "chunk_id": "doc_5_c14",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 11: Mixed Pacing vs. Helpfulness\n- **Feedback Text**: \"Course moved way too fast in the first half, though Sir was very kind in doubt sessions after class.\"\n- **Expected Sentiment**: Mixed\n- **Primary Theme**: Pace / Teaching Clarity\n- **Explanation**: Juxtaposition of fast pace with supportive doubt sessions.\n- **Engine Behavior**: Mixed classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339251"
+    },
+    {
+      "chunk_id": "doc_5_c15",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 12: Content Relevance Positive\n- **Feedback Text**: \"Including modern industry case studies like cloud architecture made the subject relevant and enjoyable.\"\n- **Expected Sentiment**: Positive\n- **Primary Theme**: Course Content\n- **Explanation**: Positive adjectives \"relevant\" and \"enjoyable\".\n- **Engine Behavior**: Positive classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339259"
+    },
+    {
+      "chunk_id": "doc_5_c16",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 13: Examination Rigor Neutral\n- **Feedback Text**: \"The midterm exam questions were based on the reference manual rather than the slide decks.\"\n- **Expected Sentiment**: Neutral\n- **Primary Theme**: Exams & Evaluation\n- **Explanation**: Purely factual comparison of examination material origins.\n- **Engine Behavior**: Neutral classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339267"
+    },
+    {
+      "chunk_id": "doc_5_c17",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 14: Practical Guidance Negative\n- **Feedback Text**: \"Lab assistants merely hand out PDF instructions and provide zero assistance when segmentation faults occur.\"\n- **Expected Sentiment**: Negative\n- **Primary Theme**: Practical Sessions\n- **Explanation**: \"Zero assistance\" and \"merely\" indicate neglect of lab pedagogical support.\n- **Engine Behavior**: Negative classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339275"
+    },
+    {
+      "chunk_id": "doc_5_c18",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 15: Hinglish Mixed\n- **Feedback Text**: \"Teaching toh badhiya hai but assignments ka workload thoda bohot zyada ho gaya.\"\n- **Expected Sentiment**: Mixed\n- **Primary Theme**: Teaching Clarity / Pace\n- **Explanation**: \"Badhiya\" (positive) contrasted with \"zyada ho gaya\" (overwhelming workload).\n- **Engine Behavior**: Mixed classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339283"
+    },
+    {
+      "chunk_id": "doc_5_c19",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 16: Project-Based Praise\n- **Feedback Text**: \"The semester capstone project gave us real teamwork experience and practical debugging skills.\"\n- **Expected Sentiment**: Positive\n- **Primary Theme**: Practical Sessions\n- **Explanation**: \"Real teamwork experience\" and \"practical debugging skills\" indicate high engagement.\n- **Engine Behavior**: Positive classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339291"
+    },
+    {
+      "chunk_id": "doc_5_c20",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 17: Monotone Delivery Critique\n- **Feedback Text**: \"Lectures feel monotonous because the instructor reads directly from the textbook without interactive discussion.\"\n- **Expected Sentiment**: Negative\n- **Primary Theme**: Classroom Environment\n- **Explanation**: \"Monotonous\" and \"reads directly\" represent passive pedagogy critique.\n- **Engine Behavior**: Negative classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339318"
+    },
+    {
+      "chunk_id": "doc_5_c21",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 18: Resource Availability Positive\n- **Feedback Text**: \"Sharing recorded session links and well-annotated PDF notes made revision before finals stress-free.\"\n- **Expected Sentiment**: Positive\n- **Primary Theme**: Academic Resources\n- **Explanation**: \"Well-annotated\" and \"stress-free\" evoke ease of learning.\n- **Engine Behavior**: Positive classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339326"
+    },
+    {
+      "chunk_id": "doc_5_c22",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 19: Grading Transparency Negative\n- **Feedback Text**: \"Rubrics for the term project were never published, resulting in unpredictable and arbitrary marks.\"\n- **Expected Sentiment**: Negative\n- **Primary Theme**: Exams & Evaluation\n- **Explanation**: \"Unpredictable and arbitrary\" signify lack of grading clarity.\n- **Engine Behavior**: Negative classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339334"
+    },
+    {
+      "chunk_id": "doc_5_c23",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 20: Encouraging Support Positive\n- **Feedback Text**: \"Prof. Anita is remarkably approachable and patiently answered my questions three times until I understood recursion.\"\n- **Expected Sentiment**: Positive\n- **Primary Theme**: Teaching Clarity\n- **Explanation**: \"Patiently\", \"approachable\", and \"understood recursion\" denote excellent instructional care.\n- **Engine Behavior**: High confidence Positive.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339341"
+    },
+    {
+      "chunk_id": "doc_5_c24",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 21: Mild Hinglish Neutral\n- **Feedback Text**: \"Theek thaak subject hai, normal syllabus coverage tha.\"\n- **Expected Sentiment**: Neutral\n- **Primary Theme**: Course Content\n- **Explanation**: \"Theek thaak\" and \"normal\" indicate average satisfaction without strong deviation.\n- **Engine Behavior**: Neutral classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339349"
+    },
+    {
+      "chunk_id": "doc_5_c25",
+      "document_id": 5,
+      "title": "Sentiment Analysis Guide",
+      "category": "Feedback Fundamentals",
+      "text": "### Case 22: High Theoretical Depth Positive\n- **Feedback Text**: \"Rigorous mathematical proofs of relational algebra and normalization algorithms were deeply inspiring.\"\n- **Expected Sentiment**: Positive\n- **Primary Theme**: Course Content\n- **Explanation**: \"Rigorous\" and \"deeply inspiring\" reflect intellectual challenge appreciated by the student.\n- **Engine Behavior**: Positive classification.",
+      "page_number": 1,
+      "created_at": "2026-10-15T15:48:20.339357"
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-container": "#2563eb", "primary": "#004ac6", "on-tertiary-fixed": "#0d1c2e", "on-primary-container": "#eeefff", "tertiary-fixed": "#d5e3fc", "tertiary-container": "#606e83", "surface-container-lowest": "#ffffff", "error-container": "#ffdad6", "surface-bright": "#faf8ff", "primary-fixed-dim": "#b4c5ff", "outline-variant": "#c3c6d7", "on-tertiary-fixed-variant": "#3a485b", "on-background": "#131b2e", "secondary": "#00687a", "outline": "#737686", "on-primary-fixed": "#00174b", "on-tertiary": "#ffffff", "surface": "#faf8ff", "surface-container": "#eaedff", "inverse-surface": "#283044", "on-error": "#ffffff", "surface-container-highest": "#dae2fd", "on-surface-variant": "#434655", "secondary-fixed-dim": "#4cd7f6", "error": "#ba1a1a", "tertiary-fixed-dim": "#b9c7df", "on-tertiary-container": "#e9f0ff", "secondary-fixed": "#acedff", "surface-tint": "#0053db", "on-secondary-fixed-variant": "#004e5c", "on-secondary-fixed": "#001f26", "inverse-on-surface": "#eef0ff", "on-error-container": "#93000a", "background": "#faf8ff", "tertiary": "#48566a", "on-secondary": "#ffffff", "on-surface": "#131b2e", "on-primary-fixed-variant": "#003ea8", "inverse-primary": "#b4c5ff", "secondary-container": "#57dffe", "surface-container-low": "#f2f3ff", "on-secondary-container": "#006172", "on-primary": "#ffffff", "surface-variant": "#dae2fd", "surface-container-high": "#e2e7ff", "surface-dim": "#d2d9f4", "primary-fixed": "#dbe1ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "1.5rem", "space-xl": "2.5rem", "margin-sm": "1rem", "gutter-lg": "2rem", "margin-lg": "3rem", "space-xs": "0.25rem", "gutter-sm": "1rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "margin": "2rem", "space-md": "1rem" }, "fontFamily": { "headline-xl-mobile": [ "Inter" ], "headline-md": [ "Inter" ], "label-md": [ "Inter" ], "body-md": [ "Inter" ], "headline-lg-mobile": [ "Inter" ], "body-sm": [ "Inter" ], "label-sm": [ "Inter" ], "headline-xl": [ "Inter" ], "headline-sm": [ "Inter" ], "headline-lg": [ "Inter" ], "body-lg": [ "Inter" ], "metric-display": [ "Inter" ] }, "fontSize": { "headline-xl-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-md": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "label-md": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" } ], "headline-lg-mobile": [ "22px", { "lineHeight": "30px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.005em", "fontWeight": "400" } ], "label-sm": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "headline-xl": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "700" } ], "headline-sm": [ "16px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-lg": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400" } ], "metric-display": [ "32px", { "lineHeight": "38px", "letterSpacing": "-0.03em", "fontWeight": "700" } ] } } } }</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 h-16 z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-gutter-lg flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Student Feedback Assistant Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Xt1rcY0DMQg7O9PcApM0_S2OT101N-r_P395xkpPdZltT3KWSU5cSYc1TVbkuruxm6z2vrdOuXj0Pgm7DXOgOye6LofbmdRE8pHEwWeenNsA9YlO2ikxyYg5_pWhC3-PoXz2oVcqgbCMxC-894gxGW8WlwIN1wuXobt8l02pFPDXn0uUMWIP4U6VQIEiX2DDexe78Tx3dk7wxR3gt5kCkNYZl6kILuaYwK7XEUTtsKs4UfRoy1z0eGIBY"/><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Student Feedback Assistant</span><span class="px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wide">CIE Academic Project</span></div><span class="font-body-sm text-body-sm text-on-surface-variant hidden md:block">Turn Student Voices into Meaningful Improvements</span></div></div></div><nav class="hidden md:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-primary font-label-md"><a aria-current="page" class="px-space-sm py-1.5 rounded-lg transition-colors bg-surface-container text-primary font-label-md" data-path="landing-overview" href="#">Landing</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="dashboard-home" href="#">Student Portal</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="analytics-overview" href="#">Admin Analytics</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="ai-academic-assistant" href="#">AI Assistant</a></nav><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm"><span class="w-2 h-2 rounded-full bg-secondary"></span><span>RAG Online</span></div><div class="flex items-center gap-space-sm"><div class="text-right hidden sm:block"><div class="font-label-md text-label-md text-on-surface leading-tight">Aria Chen</div><div class="font-body-sm text-body-sm text-on-surface-variant">CSE - 6th Sem</div></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-highest" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9wMc2mC_hM8XMponfe0-5Xy9g2Pn5QwIh9NmfQ6qp7SdjBrw23GdIclavXgDiDjtTyRlrElGqIwYN1tY2uvrpShWFlUQgx5FlKhN3_CXLswPCW3eS7RbKBIjMiKc_ZqA4IU7GLvNp2PjpnJzHhaR3KbTMHMO253ohX13xsjxoOlB9dWU3Z7RnOgKwm2-a40WmWw4FXOS-u3t8B1M4_95z2SRXHyPwLm2unHtV4qDHOMZFKXmNZoGI"/></div></div></div></header><main class="w-full min-h-screen pt-16 bg-surface"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Top Glow -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[720px] h-[360px] bg-gradient-to-b from-primary-fixed/40 via-secondary-fixed/20 to-transparent blur-3xl pointer-events-none -z-10"></div>
+<!-- Hero Container -->
+<div class="w-full max-w-7xl mx-auto px-gutter sm:px-gutter-lg pt-10 pb-16 flex flex-col items-center text-center">
+<!-- Academic Trust Chip -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-high shadow-sm mb-6">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase">CIE Continuous Improvement System • Active Cohort 2024</span>
+</div>
+<!-- Hero Headline with typographic contrast -->
+<h1 class="font-headline-xl text-headline-xl sm:text-[44px] sm:leading-[52px] text-on-surface font-bold tracking-tight max-w-4xl">
+        Your Feedback. <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Better Learning.</span>
+</h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mt-5">
+        A secure, AI-powered academic feedback platform engineered for college CIE evaluations, continuous curriculum optimization, and constructive student-faculty dialogue.
+      </p>
+<!-- Action Cluster -->
+<div class="flex flex-wrap items-center justify-center gap-space-md mt-8">
+<button class="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-md hover:shadow-lg hover:bg-primary/95 transition-all" onclick="document.getElementById('workflow-section').scrollIntoView({behavior: 'smooth'})">
+<span>Submit Feedback</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high shadow-sm transition-all" data-path="ai-academic-assistant" href="#">
+<span class="material-symbols-outlined text-secondary text-[18px]" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<span>Explore AI Assistant</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-md py-3 rounded-xl bg-transparent text-tertiary hover:text-on-surface font-label-md text-label-md transition-colors" data-path="analytics-overview" href="#">
+<span class="material-symbols-outlined text-[18px]">query_stats</span>
+<span>Admin Live Preview</span>
+</a>
+</div>
+<!-- Trust Metrics Bar -->
+<div class="w-full max-w-4xl mt-14 grid grid-cols-1 sm:grid-cols-3 gap-space-md bg-surface-container-lowest p-space-md sm:p-space-lg rounded-2xl shadow-sm">
+<div class="flex items-center gap-space-md sm:justify-center">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[26px]">rate_review</span>
+</div>
+<div class="text-left">
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">1,420+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Verified Submissions</div>
+</div>
+</div>
+<div class="flex items-center gap-space-md sm:justify-center">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[26px]">verified</span>
+</div>
+<div class="text-left">
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">94.2%</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Actioned Resolution Rate</div>
+</div>
+</div>
+<div class="flex items-center gap-space-md sm:justify-center">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[26px]">psychology</span>
+</div>
+<div class="text-left">
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">RAG-Powered</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Semantic Policy Grounding</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Live Analytics Preview & Editorial Teaser -->
+<section class="w-full max-w-7xl mx-auto px-gutter sm:px-gutter-lg py-12">
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg sm:p-space-xl shadow-md flex flex-col lg:flex-row gap-space-xl items-center">
+<!-- Left Column: Context & Realtime Pulse -->
+<div class="w-full lg:w-5/12 flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-semibold">Continuous Diagnostic Evaluation</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold mt-2">
+          Real-time faculty insights without breach of privacy.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-4">
+          Incoming student reviews are parsed through semantic RAG pipelines. Sentiment is normalized across lab rigor, syllabus pacing, and instructional clarity to give faculty instant actionable levers.
+        </p>
+<div class="flex flex-col gap-space-sm mt-6">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">check_circle</span>
+<span class="font-label-md text-label-md text-on-surface">Differential privacy preserves 100% student anonymity</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">check_circle</span>
+<span class="font-label-md text-label-md text-on-surface">Direct integration with CIE grading rubrics and accreditation boards</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">check_circle</span>
+<span class="font-label-md text-label-md text-on-surface">Curated recommendations delivered weekly to department heads</span>
+</div>
+</div>
+<div class="mt-8 flex items-center gap-space-md">
+<a class="px-space-md py-2 rounded-xl bg-primary-fixed text-on-primary-fixed font-label-md text-label-md hover:bg-primary-fixed-dim transition-colors" data-path="dashboard-home" href="#">
+            Try Demo Sandbox
+          </a>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Updated 14 mins ago • v2.4</span>
+</div>
+</div>
+<!-- Right Column: Micro Analytics Widget / Mockup -->
+<div class="w-full lg:w-7/12 bg-surface-container-low rounded-xl p-space-md sm:p-space-lg flex flex-col gap-space-md shadow-inner">
+<!-- Widget Header -->
+<div class="flex items-center justify-between pb-2">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Live Sentiment &amp; Topic Cluster</span>
+</div>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">CSE-304: Distributed Systems</span>
+</div>
+<!-- Metric Grid & Inline Chart -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md">
+<!-- Donut Graphic Representation -->
+<div class="md:col-span-5 bg-surface-container-lowest p-space-md rounded-xl flex flex-col items-center justify-center text-center shadow-sm">
+<div class="relative w-36 h-36 flex items-center justify-center">
+<svg class="w-36 h-36 -rotate-90" viewbox="0 0 36 36">
+<!-- Background track -->
+<circle class="stroke-surface-container" cx="18" cy="18" fill="none" r="15.915" stroke-width="3.8"></circle>
+<!-- Critical (8%) -->
+<circle class="stroke-error" cx="18" cy="18" fill="none" r="15.915" stroke-dasharray="8 92" stroke-dashoffset="-92" stroke-width="3.8"></circle>
+<!-- Neutral (24%) -->
+<circle class="stroke-tertiary-container" cx="18" cy="18" fill="none" r="15.915" stroke-dasharray="24 76" stroke-dashoffset="-68" stroke-width="3.8"></circle>
+<!-- Positive (68%) -->
+<circle class="stroke-primary" cx="18" cy="18" fill="none" r="15.915" stroke-dasharray="68 32" stroke-dashoffset="0" stroke-width="3.8"></circle>
+</svg>
+<div class="absolute flex flex-col items-center">
+<span class="font-metric-display text-metric-display text-on-surface font-bold leading-none">68%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase mt-1">Positive</span>
+</div>
+</div>
+<div class="grid grid-cols-3 gap-space-xs w-full mt-4 text-center">
+<div>
+<span class="block font-label-sm text-label-sm text-primary font-bold">68%</span>
+<span class="font-body-sm text-[10px] text-on-surface-variant">Constructive</span>
+</div>
+<div>
+<span class="block font-label-sm text-label-sm text-tertiary font-bold">24%</span>
+<span class="font-body-sm text-[10px] text-on-surface-variant">Neutral</span>
+</div>
+<div>
+<span class="block font-label-sm text-label-sm text-error font-bold">8%</span>
+<span class="font-body-sm text-[10px] text-on-surface-variant">Friction</span>
+</div>
+</div>
+</div>
+<!-- Top Praise & AI Extracted Action Vectors -->
+<div class="md:col-span-7 flex flex-col gap-space-sm justify-between">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase font-semibold">High-Frequency Student Feedback Tags</span>
+<div class="flex flex-wrap gap-1.5 mt-2.5">
+<span class="px-space-xs py-1 rounded-md bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">thumb_up</span> Clear Lab Explanations
+                </span>
+<span class="px-space-xs py-1 rounded-md bg-surface-container text-on-surface font-label-sm text-label-sm">
+                  Updated Code Repos
+                </span>
+<span class="px-space-xs py-1 rounded-md bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">
+                  Responsive Office Hours
+                </span>
+<span class="px-space-xs py-1 rounded-md bg-surface-container text-on-surface font-label-sm text-label-sm">
+                  Pacing in Module 3
+                </span>
+</div>
+</div>
+<!-- AI Synthesis Card -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px] shrink-0 mt-0.5">neurology</span>
+<div>
+<span class="font-label-md text-label-md text-on-surface font-semibold block">AI Action Synthesis</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                  Students request hands-on docker deployment walkthroughs before Lab Test 2. Clarity metrics rank highest in Week 4 lectures.
+                </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4-Column Feature Matrix Grid -->
+<section class="w-full max-w-7xl mx-auto px-gutter sm:px-gutter-lg py-12">
+<div class="text-center max-w-2xl mx-auto mb-10">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-widest">Platform Capabilities</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold mt-2">
+        Precision tools for genuine academic progression
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+        Engineered specifically for collegiate accreditation standards and university feedback cadences.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Feature Card 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-primary-fixed flex items-center justify-center text-primary mb-5">
+<span class="material-symbols-outlined text-[24px]">lock_reset</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Smart Structured Evaluation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+            Multi-dimensional rubric evaluations (clarity, coursework depth, lab equipment) secured with zero-knowledge cryptographic anonymity tokens.
+          </p>
+</div>
+<div class="mt-6 pt-4 flex items-center gap-space-xs text-primary font-label-sm text-label-sm">
+<span>Zero-trace identity</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Feature Card 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-secondary mb-5">
+<span class="material-symbols-outlined text-[24px]">insights</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">AI Sentiment &amp; Insights</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+            Automated categorization distinguishing genuine learning bottlenecks from stylistic preferences, eliminating unstructured noise.
+          </p>
+</div>
+<div class="mt-6 pt-4 flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span>Vectorized parsing</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Feature Card 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-on-surface mb-5">
+<span class="material-symbols-outlined text-[24px]">model_training</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">RAG Knowledge Assistant</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+            Instant grounded query resolutions based strictly on official department syllabi, CIE marking regulations, and grievance guidelines.
+          </p>
+</div>
+<div class="mt-6 pt-4 flex items-center gap-space-xs text-on-surface font-label-sm text-label-sm">
+<span>Hallucination-free</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Feature Card 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed mb-5">
+<span class="material-symbols-outlined text-[24px]">dataset</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Administrative Suite</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+            Longitudinal trend telemetry, automated NAAC/NBA compliance exports, cohort comparative analytics, and instant PDF audit reports.
+          </p>
+</div>
+<div class="mt-6 pt-4 flex items-center gap-space-xs text-tertiary font-label-sm text-label-sm">
+<span>Accreditation ready</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Visual Callout / Student Campus Vignette -->
+<section class="w-full max-w-7xl mx-auto px-gutter sm:px-gutter-lg py-8">
+<div class="relative rounded-3xl overflow-hidden bg-inverse-surface text-inverse-on-surface p-space-lg sm:p-space-xl flex flex-col md:flex-row items-center gap-space-xl">
+<div class="w-full md:w-1/2 z-10">
+<span class="px-space-xs py-1 rounded bg-secondary text-on-secondary font-label-sm text-label-sm uppercase">CIE Transparency Promise</span>
+<h2 class="font-headline-xl text-headline-xl text-inverse-on-surface font-bold mt-4 leading-tight">
+          Empowering classrooms through objective dialogue.
+        </h2>
+<p class="font-body-md text-body-md text-surface-dim mt-3">
+          Our dual-agent validation pipeline ensures that faculty receive clear, professional, and actionable pointers without student hesitation or fear of retribution.
+        </p>
+<div class="flex items-center gap-space-md mt-6">
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold text-inverse-on-surface">100%</span>
+<span class="font-body-sm text-body-sm text-surface-dim">Encrypted Ledger</span>
+</div>
+<div class="h-8 w-px bg-outline"></div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold text-inverse-on-surface">48 Hours</span>
+<span class="font-body-sm text-body-sm text-surface-dim">Avg Response Time</span>
+</div>
+</div>
+</div>
+<div class="w-full md:w-1/2 relative h-64 sm:h-80 rounded-2xl overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Modern university students collaborating in a high-tech academic lecture hall with laptops, ambient soft daylight, university architecture with minimal blue and slate accents, photo-realistic scholarly atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqqmdMWiQ0D49vY_FP4LXp8EV0Pk7On6xWK4a5h5tZHF-6mHaqlg9r23iB3NHnP4hP-JLjscAJKGeZ0hgjTei0eZLdkSr0BiG_K0gIhja4PWf2CQMP9n0WDqEZXFFvnsHoYYNJJw46y9zB5Ldaep9XVSGkYlC3BR__lopX23tMjjRs1DiGEkun3yJX54d8GJgRBTLyJ3AY50i4TzfXxlFD4lqmA-lww8gwMqpnsT3o60nKI5NK_j4B"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/90 backdrop-blur-md p-space-sm rounded-xl text-on-surface">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md font-semibold">Semester VI • Computer Science</span>
+<span class="font-body-sm text-body-sm text-secondary">Cycle Active</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- How It Works (3-Step Workflow) -->
+<section class="w-full max-w-7xl mx-auto px-gutter sm:px-gutter-lg py-16" id="workflow-section">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold tracking-widest">Workflow</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold mt-2">
+        Three simple steps to institutional impact
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+        Designed to take less than 3 minutes per evaluation cycle with frictionless campus sign-in.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg relative">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col relative">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center font-headline-sm text-headline-sm font-bold mb-6">
+          1
+        </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Select Course &amp; Faculty</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3">
+          Authenticate seamlessly with university credentials. Your enrolled theoretical courses, lab sections, and electives populate automatically.
+        </p>
+<div class="mt-6 pt-4 bg-surface-container-low rounded-xl p-space-sm flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">badge</span>
+<span class="font-body-sm text-body-sm text-on-surface">Campus SSO Integration</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col relative">
+<div class="w-10 h-10 rounded-full bg-secondary text-on-secondary flex items-center justify-center font-headline-sm text-headline-sm font-bold mb-6">
+          2
+        </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Calibrated Rubric Evaluation</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3">
+          Score standard metrics: concept pacing, practical lab clarity, assignment quality, and provide open-ended constructive narrative context.
+        </p>
+<div class="mt-6 pt-4 bg-surface-container-low rounded-xl p-space-sm flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">tune</span>
+<span class="font-body-sm text-body-sm text-on-surface">Multi-point Matrix</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col relative">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary flex items-center justify-center font-headline-sm text-headline-sm font-bold mb-6">
+          3
+        </div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">AI Aggregation &amp; Resolution</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3">
+          Our system anonymizes text, flags urgent curriculum gaps, and presents constructive suggestions to department heads for speedy review.
+        </p>
+<div class="mt-6 pt-4 bg-surface-container-low rounded-xl p-space-sm flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">auto_graph</span>
+<span class="font-body-sm text-body-sm text-on-surface">Continuous CIE Loop</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Submission Demo Call to Action -->
+<section class="w-full max-w-7xl mx-auto px-gutter sm:px-gutter-lg pb-16">
+<div class="bg-surface-container rounded-3xl p-space-lg sm:p-space-xl flex flex-col sm:flex-row items-center justify-between gap-space-lg">
+<div class="max-w-xl">
+<h3 class="font-headline-lg text-headline-lg text-on-surface font-bold">Ready to voice your academic perspective?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Your input directly guides laboratory updates, project timelines, and teaching clarity for upcoming semesters.
+        </p>
+</div>
+<div class="flex items-center gap-space-md shrink-0">
+<a class="px-space-lg py-3 rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary/90 transition-all flex items-center gap-space-xs" data-path="dashboard-home" href="#">
+<span>Go to Student Portal</span>
+<span class="material-symbols-outlined text-[18px]">launch</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Institutional Metadata & Compliance Notice -->
+<section class="w-full max-w-7xl mx-auto px-gutter sm:px-gutter-lg pb-12 pt-4">
+<div class="bg-surface-container-low p-space-md sm:p-space-lg rounded-2xl flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<span class="material-symbols-outlined text-tertiary text-[28px]">format_image_left</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Institutional Compliance &amp; Anonymity Verification</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Aligned with National Board of Accreditation (NBA) and University CIE continuous feedback directives.</span>
+</div>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="px-space-xs py-1 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">FERPA/GDPR Compliant</span>
+<span class="px-space-xs py-1 rounded-full bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">ISO 27001 Certified Vault</span>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Simple micro-interaction for demonstration tabs or buttons
+  document.addEventListener('DOMContentLoaded', () => {
+    const feedbackButtons = document.querySelectorAll('button');
+    feedbackButtons.forEach(btn => {
+      btn.addEventListener('mousedown', () => {
+        btn.classList.add('scale-95');
+      });
+      btn.addEventListener('mouseup', () => {
+        btn.classList.remove('scale-95');
+      });
+      btn.addEventListener('mouseleave', () => {
+        btn.classList.remove('scale-95');
+      });
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-low py-space-xl"><div class="w-full px-gutter-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><div>© 2024 Student Feedback Assistant • CIE Academic Project. Confidential &amp; Verified.</div><div class="flex items-center gap-space-md"><span class="px-space-xs py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">Demo Data Active</span><span>Institutional Grading &amp; Continuous Improvement System</span></div></div></footer></body></html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-container": "#2563eb", "primary": "#004ac6", "on-tertiary-fixed": "#0d1c2e", "on-primary-container": "#eeefff", "tertiary-fixed": "#d5e3fc", "tertiary-container": "#606e83", "surface-container-lowest": "#ffffff", "error-container": "#ffdad6", "surface-bright": "#faf8ff", "primary-fixed-dim": "#b4c5ff", "outline-variant": "#c3c6d7", "on-tertiary-fixed-variant": "#3a485b", "on-background": "#131b2e", "secondary": "#00687a", "outline": "#737686", "on-primary-fixed": "#00174b", "on-tertiary": "#ffffff", "surface": "#faf8ff", "surface-container": "#eaedff", "inverse-surface": "#283044", "on-error": "#ffffff", "surface-container-highest": "#dae2fd", "on-surface-variant": "#434655", "secondary-fixed-dim": "#4cd7f6", "error": "#ba1a1a", "tertiary-fixed-dim": "#b9c7df", "on-tertiary-container": "#e9f0ff", "secondary-fixed": "#acedff", "surface-tint": "#0053db", "on-secondary-fixed-variant": "#004e5c", "on-secondary-fixed": "#001f26", "inverse-on-surface": "#eef0ff", "on-error-container": "#93000a", "background": "#faf8ff", "tertiary": "#48566a", "on-secondary": "#ffffff", "on-surface": "#131b2e", "on-primary-fixed-variant": "#003ea8", "inverse-primary": "#b4c5ff", "secondary-container": "#57dffe", "surface-container-low": "#f2f3ff", "on-secondary-container": "#006172", "on-primary": "#ffffff", "surface-variant": "#dae2fd", "surface-container-high": "#e2e7ff", "surface-dim": "#d2d9f4", "primary-fixed": "#dbe1ff" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "1.5rem", "space-xl": "2.5rem", "margin-sm": "1rem", "gutter-lg": "2rem", "margin-lg": "3rem", "space-xs": "0.25rem", "gutter-sm": "1rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "margin": "2rem", "space-md": "1rem" }, "fontFamily": { "headline-xl-mobile": [ "Inter" ], "headline-md": [ "Inter" ], "label-md": [ "Inter" ], "body-md": [ "Inter" ], "headline-lg-mobile": [ "Inter" ], "body-sm": [ "Inter" ], "label-sm": [ "Inter" ], "headline-xl": [ "Inter" ], "headline-sm": [ "Inter" ], "headline-lg": [ "Inter" ], "body-lg": [ "Inter" ], "metric-display": [ "Inter" ] }, "fontSize": { "headline-xl-mobile": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-md": [ "20px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "label-md": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "body-md": [ "14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" } ], "headline-lg-mobile": [ "22px", { "lineHeight": "30px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "body-sm": [ "12px", { "lineHeight": "18px", "letterSpacing": "0.005em", "fontWeight": "400" } ], "label-sm": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "headline-xl": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "700" } ], "headline-sm": [ "16px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600" } ], "headline-lg": [ "28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "body-lg": [ "16px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400" } ], "metric-display": [ "32px", { "lineHeight": "38px", "letterSpacing": "-0.03em", "fontWeight": "700" } ] } } } }</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 h-16 z-50 bg-surface-container-lowest/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full px-gutter-lg flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Student Feedback Assistant Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Xt1rcY0DMQg7O9PcApM0_S2OT101N-r_P395xkpPdZltT3KWSU5cSYc1TVbkuruxm6z2vrdOuXj0Pgm7DXOgOye6LofbmdRE8pHEwWeenNsA9YlO2ikxyYg5_pWhC3-PoXz2oVcqgbCMxC-894gxGW8WlwIN1wuXobt8l02pFPDXn0uUMWIP4U6VQIEiX2DDexe78Tx3dk7wxR3gt5kCkNYZl6kILuaYwK7XEUTtsKs4UfRoy1z0eGIBY"/><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">Student Feedback Assistant</span><span class="px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm uppercase tracking-wide">CIE Academic Project</span></div><span class="font-body-sm text-body-sm text-on-surface-variant hidden xl:block">Turn Student Voices into Meaningful Improvements</span></div></div><div class="h-6 w-px bg-surface-container-highest hidden md:block"></div><nav class="hidden lg:flex items-center gap-space-xs" data-active-classes="bg-surface-container text-primary font-label-md"><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="landing-overview" href="#">Landing</a><a aria-current="page" class="px-space-sm py-1.5 rounded-lg transition-colors bg-surface-container text-primary font-label-md" data-path="dashboard-home" href="#">Student Portal</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="analytics-overview" href="#">Admin Analytics</a><a class="px-space-sm py-1.5 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-colors" data-path="ai-academic-assistant" href="#">AI Assistant</a></nav></div><div class="flex items-center gap-space-md"><div class="hidden 2xl:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm"><span class="w-2 h-2 rounded-full bg-secondary"></span><span>AI Engine: Active (RAG Online)</span></div><div class="hidden sm:flex items-center p-0.5 rounded-lg bg-surface-container-low font-label-sm text-label-sm"><button class="px-space-sm py-1 rounded-md bg-surface-container-lowest text-primary shadow-[0_1px_3px_rgba(0,0,0,0.04)] font-label-md text-label-md" type="button">Student Mode</button><button class="px-space-sm py-1 rounded-md text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">Administrator</button></div><div class="relative flex items-center justify-center w-9 h-9 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-primary"></span></div><div class="flex items-center gap-space-sm pl-space-xs"><div class="text-right hidden md:block"><div class="font-label-md text-label-md text-on-surface leading-tight">Aria Chen</div><div class="font-body-sm text-body-sm text-on-surface-variant">CSE - 6th Sem</div></div><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-surface-container-highest" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9wMc2mC_hM8XMponfe0-5Xy9g2Pn5QwIh9NmfQ6qp7SdjBrw23GdIclavXgDiDjtTyRlrElGqIwYN1tY2uvrpShWFlUQgx5FlKhN3_CXLswPCW3eS7RbKBIjMiKc_ZqA4IU7GLvNp2PjpnJzHhaR3KbTMHMO253ohX13xsjxoOlB9dWU3Z7RnOgKwm2-a40WmWw4FXOS-u3t8B1M4_95z2SRXHyPwLm2unHtV4qDHOMZFKXmNZoGI"/></div></div></div></header><aside class="fixed left-0 top-16 bottom-0 w-72 bg-surface-container-lowest z-40 flex flex-col justify-between shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="flex-1 overflow-y-auto px-space-md py-space-lg flex flex-col gap-space-lg"><div class="flex flex-col gap-space-xs"><span class="px-space-sm font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Student Hub</span><nav class="flex flex-col gap-0.5" data-active-classes="bg-primary-container text-on-primary-container font-label-md"><a aria-current="page" class="flex items-center justify-between px-space-sm py-2 rounded-lg transition-all bg-primary-container text-on-primary-container font-label-md" data-path="dashboard-home" href="#"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">dashboard</span>Dashboard (Home)</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="submit-feedback" href="#"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">add_circle</span>Submit Feedback</span><span class="px-space-xs py-0.5 rounded-md bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">+ New</span></a><a class="flex items-center px-space-sm py-2 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="my-feedback-history" href="#"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">history_edu</span>My Feedback History</span></a><a class="flex items-center px-space-sm py-2 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="ai-academic-assistant" href="#"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">psychology</span>AI Academic Assistant</span></a><a class="flex items-center px-space-sm py-2 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="knowledge-search" href="#"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">manage_search</span>Knowledge Search</span></a></nav></div><div class="flex flex-col gap-space-xs"><span class="px-space-sm font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Faculty &amp; Admin Suite</span><nav class="flex flex-col gap-0.5" data-active-classes="bg-primary-container text-on-primary-container font-label-md"><a class="flex items-center px-space-sm py-2 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="analytics-overview" href="#"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">monitoring</span>Analytics Overview</span></a><a class="flex items-center px-space-sm py-2 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="feedback-analysis" href="#"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">query_stats</span>Feedback Analysis</span></a><a class="flex items-center px-space-sm py-2 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="knowledge-base-rag" href="#"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">neurology</span>Knowledge Base &amp; RAG</span></a><a class="flex items-center px-space-sm py-2 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="reports-csv-export" href="#"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">download</span>Reports &amp; CSV Export</span></a><a class="flex items-center px-space-sm py-2 rounded-lg text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-low hover:text-on-surface transition-all" data-path="system-status-settings" href="#"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[20px]">settings</span>System Status &amp; Settings</span></a></nav></div></div><div class="p-space-md bg-surface-container-low/70 flex flex-col gap-space-sm"><div class="flex items-center justify-between font-label-sm text-label-sm text-on-surface-variant"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[16px] text-secondary">verified_user</span>Confidential &amp; Verified</span><span class="px-space-xs py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">Demo Data Active</span></div><div class="font-body-sm text-body-sm text-outline">Institutional Academic Review © 2024</div></div></aside><div class="pl-72"><main class="w-full min-h-screen pt-16 px-gutter-lg py-space-lg bg-surface"><div class="flex flex-col w-full gap-space-lg pb-space-xl">
+<!-- Top Welcome & Feedback Cycle Banner Section -->
+<section class="flex flex-col gap-space-md bg-surface-container-lowest rounded-xl p-space-lg shadow-sm relative overflow-hidden">
+<!-- Subtle Ambient Glow -->
+<div class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-gradient-to-br from-primary-fixed/40 via-secondary-fixed/20 to-transparent blur-3xl pointer-events-none"></div>
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md z-10">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-lg text-headline-lg text-on-surface">Welcome back, Aria! 👋</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-2">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary"></span>
+          B.Tech Computer Science, Semester 6 • Roll #CS21B042
+        </p>
+</div>
+<!-- Urgency Banner Pill -->
+<div class="flex items-center gap-space-sm px-space-md py-2.5 rounded-lg bg-surface-container-low">
+<div class="flex items-center justify-center w-8 h-8 rounded-full bg-error-container text-on-error-container">
+<span class="material-symbols-outlined text-[18px]">alarm</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Spring 2025 Mid-Semester Evaluation Cycle</span>
+<span class="font-body-sm text-body-sm text-error font-medium">Closes in 4 days (April 18, 23:59 IST)</span>
+</div>
+</div>
+</div>
+<!-- Cycle Completion Progress Bar -->
+<div class="flex flex-col gap-2 pt-space-xs z-10">
+<div class="flex items-center justify-between font-label-md text-label-md">
+<div class="flex items-center gap-2">
+<span class="text-on-surface">Overall Evaluation Progress</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">3 of 5 Completed</span>
+</div>
+<span class="text-primary font-bold">60% Completed</span>
+</div>
+<div class="w-full h-3 rounded-full bg-surface-container-high overflow-hidden p-0.5">
+<div class="h-full rounded-full bg-gradient-to-r from-primary to-secondary transition-all duration-700 ease-out" style="width: 60%"></div>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant font-body-sm text-body-sm">
+<span>Required for Mid-Term Grade Clearance</span>
+<span>2 Evaluations Pending</span>
+</div>
+</div>
+</section>
+<!-- Metric Action Cards -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Card 1: Pending Evaluations -->
+<div class="flex flex-col justify-between p-space-md bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-shadow group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-semibold tracking-wide uppercase">Action Required</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container-low flex items-center justify-center text-primary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">pending_actions</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Pending Evaluations</span>
+<span class="font-metric-display text-metric-display text-on-surface mt-1">2 Courses</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          CS601 (Distributed Systems) &amp; CS604 (Machine Learning) awaiting your input.
+        </p>
+</div>
+<div class="pt-space-md mt-space-sm">
+<button class="w-full flex items-center justify-center gap-2 px-space-md py-2.5 rounded-lg bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-colors shadow-sm" type="button">
+<span>Review Now</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 2: Completed Reviews -->
+<div class="flex flex-col justify-between p-space-md bg-surface-container-lowest rounded-xl shadow-sm hover:shadow-md transition-shadow group">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold tracking-wide uppercase">Recorded</span>
+<div class="w-9 h-9 rounded-lg bg-surface-container-low flex items-center justify-center text-secondary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[20px]">task_alt</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Completed Reviews</span>
+<span class="font-metric-display text-metric-display text-on-surface mt-1">3 Submitted</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Last finalized on Apr 10 for Cloud Computing. Anonymity hashes generated.
+        </p>
+</div>
+<div class="pt-space-md mt-space-sm">
+<button class="w-full flex items-center justify-center gap-2 px-space-md py-2.5 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">receipt_long</span>
+<span>View Submitted Receipts</span>
+</button>
+</div>
+</div>
+<!-- Card 3: AI Feedback Coach -->
+<div class="flex flex-col justify-between p-space-md bg-gradient-to-br from-surface-container-lowest to-surface-container-low rounded-xl shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+<div class="flex flex-col gap-space-sm z-10">
+<div class="flex items-center justify-between">
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold tracking-wide uppercase flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">psychology</span> AI Powered
+          </span>
+<div class="w-9 h-9 rounded-lg bg-surface-container-highest flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">auto_fix_high</span>
+</div>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface-variant">Constructive Tone Assistant</span>
+<span class="font-headline-sm text-headline-sm text-on-surface mt-1">AI Feedback Coach</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Refine your written comments before sending for maximum constructive impact with pedagogical metrics.
+        </p>
+</div>
+<div class="pt-space-md mt-space-sm z-10">
+<button class="w-full flex items-center justify-center gap-2 px-space-md py-2.5 rounded-lg bg-surface-container-highest text-primary font-label-md text-label-md hover:bg-primary hover:text-on-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">smart_toy</span>
+<span>Open Coach Sandbox</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Main Grid: Available Course Feedback (Left) & Sidebar Widgets (Right) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Active Course Evaluation Cards (8 cols) -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Enrolled Courses &amp; Evaluations</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Spring 2025 Mid-Sem Course List</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Filter:</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-medium">All Courses (5)</span>
+</div>
+</div>
+<!-- Course Cards Container -->
+<div class="grid grid-cols-1 gap-space-md">
+<!-- Card 1: CS601 (Pending) -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between p-space-md bg-surface-container-lowest rounded-xl shadow-sm gap-space-md hover:shadow-md transition-shadow">
+<div class="flex items-start gap-space-md min-w-0">
+<img class="w-14 h-14 rounded-xl object-cover shrink-0" data-alt="Close up professional portrait of Dr. Aris Thorne, senior male computer science professor with spectacles in a modern academic laboratory setting with university branding" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3n4RMlIj9_Nei65JKYmQZ1Y3bM9cqHQorFN3fG-SdJqLOIRQX-BbvMp6fDqYPX5RknU7mINi4f8v1F8xV38lSwFLusHui-SerNB7U-X5gYQtXJmhHW1r1A7co9fQsZwoFx05NBOQogDSVOi4h7IBWVAzvetv8JEtRoiwc_Z21xaZjq5eSD5I3mOdHo-KZDZAM5VoJobp-T4F-eZIb2C7a26b8txGeSRfD73leUzx7arECuUghqVf1"/>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">CS601 • Distributed Systems</span>
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm uppercase font-semibold">Pending Submission</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Prof. Dr. Aris Thorne • 4 Credits</p>
+<div class="flex items-center gap-3 mt-1 font-body-sm text-body-sm text-outline">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> 15-20 min survey</span>
+<span>•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">rule</span> 4 Rubric Criteria</span>
+</div>
+</div>
+</div>
+<div class="shrink-0 w-full sm:w-auto">
+<button class="w-full sm:w-auto flex items-center justify-center gap-2 px-space-md py-2.5 rounded-lg bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-colors shadow-sm" type="button">
+<span>Start Feedback</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 2: CS604 (Pending) -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between p-space-md bg-surface-container-lowest rounded-xl shadow-sm gap-space-md hover:shadow-md transition-shadow">
+<div class="flex items-start gap-space-md min-w-0">
+<img class="w-14 h-14 rounded-xl object-cover shrink-0" data-alt="Portrait of Dr. Elena Rostova, female AI researcher and lecturer wearing smart attire in a sunlit university computer science classroom" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAysjj7wm80uw9N2SeJtRI27Je5DswvQzn1PzxzT9jVIR-5WTbww9LbskOCE3S2xgg7CyjNPIdsy3K3yfp0H6ouiCanW4sOQ1OvjCjV7L9S7lx1QDyQKH1fWfJybAx0vTlYci0IGZ5Lf-jBB0qbZr102eCe7ZfFkBBrOS2d3LLr0zUWe6CYZvpo6Yx5TiF0pom3IgwE4q4P1YTpXk-rUfit4crKtSkHkqNWMelJNeidO9rMpZXv3uOz"/>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">CS604 • Machine Learning &amp; Neural Nets</span>
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm uppercase font-semibold">Pending Submission</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Dr. Elena Rostova • 4 Credits</p>
+<div class="flex items-center gap-3 mt-1 font-body-sm text-body-sm text-outline">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> 10-15 min survey</span>
+<span>•</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">model_training</span> Includes Lab Component</span>
+</div>
+</div>
+</div>
+<div class="shrink-0 w-full sm:w-auto">
+<button class="w-full sm:w-auto flex items-center justify-center gap-2 px-space-md py-2.5 rounded-lg bg-primary-container text-on-primary font-label-md text-label-md hover:bg-primary transition-colors shadow-sm" type="button">
+<span>Start Feedback</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Card 3: CS602 (Completed) -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between p-space-md bg-surface-container-lowest/80 rounded-xl shadow-sm gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<img class="w-14 h-14 rounded-xl object-cover shrink-0 grayscale-[20%]" data-alt="Portrait of Prof. Marcus Vance, modern computer science educator smiling confidently in a high-tech academic server room background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIegasryX8zPezLlBqfC9oaRXgBbuOdei70glA7dgS4tjKyl2sTnZXMUpcRBlARhIygE9cEqW02wqLCJ_HBcW-K7-8xNf6romGd9PngKOeGDXmVc7vlz0HOJtfkdsETtCErPitPPdydbYhdg5y7y2UhjmNajSX-hkmJQtOZk4e0Vvx0cmq6FoNjunTP69Wsdf7tDyAMpjI5VX-QacUfbnzq6Op31hpUY6ubujYsmEV-COXzEtDW34z"/>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">CS602 • Cloud Computing &amp; DevOps</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold uppercase">Completed • Apr 10</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Prof. Marcus Vance • 3 Credits</p>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Submitted Rating:</span>
+<div class="flex items-center gap-0.5 text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold">4.8</span>
+</div>
+<span class="font-body-sm text-body-sm text-outline">• Hash #9AF3-C12</span>
+</div>
+</div>
+</div>
+<div class="shrink-0 w-full sm:w-auto flex items-center gap-2">
+<button class="w-full sm:w-auto px-space-md py-2 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors flex items-center justify-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>View Response</span>
+</button>
+</div>
+</div>
+<!-- Card 4: CS603 (Completed) -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between p-space-md bg-surface-container-lowest/80 rounded-xl shadow-sm gap-space-md">
+<div class="flex items-start gap-space-md min-w-0">
+<img class="w-14 h-14 rounded-xl object-cover shrink-0 grayscale-[20%]" data-alt="Portrait of Dr. Sarah Jenkins, professional university software engineering instructor in an academic office lined with textbooks" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCf5SthdMRbGKrasek-HYwCEE5jdeSmODUcCOqJD82fd3SOtOL4zK5hKCGnyKSAn_w-laiV4xJThL5bMD829RelWaJRwtWR_rZgtWzi8ZC-FFoBAf1PczxW8v65QjvzrzgUC1xDGBvOZe3YcO3CNl30MmVQUqP-wcDxc0o-2-ng4q6sIeIy_3FVoRjhs3IrWpwPtAt1nGmu-RENWLTfy0Lj3PGovWGqbiiIlbCp2nmaatCEhvOo09v7"/>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">CS603 • Software Engineering &amp; Agile</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold uppercase">Completed • Apr 8</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Dr. Sarah Jenkins • 3 Credits</p>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Submitted Rating:</span>
+<div class="flex items-center gap-0.5 text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold">4.5</span>
+</div>
+<span class="font-body-sm text-body-sm text-outline">• Hash #E7D1-840</span>
+</div>
+</div>
+</div>
+<div class="shrink-0 w-full sm:w-auto flex items-center gap-2">
+<button class="w-full sm:w-auto px-space-md py-2 rounded-lg bg-surface-container-low text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors flex items-center justify-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span>View Response</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Sidebar Widget Panel (4 cols) -->
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<!-- AI Assistant Prompt Banner -->
+<div class="p-space-md bg-gradient-to-br from-primary-container to-primary rounded-xl text-on-primary shadow-sm flex flex-col gap-space-sm relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="flex items-center gap-1.5 font-label-sm text-label-sm uppercase tracking-wide bg-on-primary/10 px-2 py-0.5 rounded-full backdrop-blur-sm">
+<span class="material-symbols-outlined text-[14px]">psychology</span> AI Academic Assistant
+          </span>
+<span class="material-symbols-outlined text-[20px] opacity-75">auto_awesome</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm font-semibold">Curious how faculty address feedback?</h3>
+<p class="font-body-sm text-body-sm text-on-primary-container mt-1">
+            "Curious how faculty address last semester's lab equipment requests? Ask the AI Academic Assistant."
+          </p>
+</div>
+<div class="pt-space-xs">
+<button class="w-full py-2 px-space-md rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md hover:bg-surface-bright transition-colors text-center shadow-sm flex items-center justify-center gap-1.5" type="button">
+<span>Ask Academic Assistant</span>
+<span class="material-symbols-outlined text-[16px]">chat</span>
+</button>
+</div>
+</div>
+<!-- Recent Activity / Notifications Feed -->
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-on-surface uppercase tracking-wide font-semibold">Faculty Updates &amp; Feeds</span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">campaign</span>
+</div>
+<div class="flex flex-col gap-3 divide-y divide-surface-container-low">
+<!-- Notification 1 -->
+<div class="flex items-start gap-3 pt-1">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">forum</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Prof. Vance posted a response</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Addressed collective Cloud Computing feedback regarding AWS lab credit allocations.
+              </p>
+<span class="font-label-sm text-label-sm text-outline mt-1">2 hours ago • Public Notice</span>
+</div>
+</div>
+<!-- Notification 2 -->
+<div class="flex items-start gap-3 pt-3">
+<div class="w-8 h-8 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Receipt Generated: CS602</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+                Cryptographic anonymity validation receipt dispatched to student vault.
+              </p>
+<span class="font-label-sm text-label-sm text-outline mt-1">Yesterday • System</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Help & Anonymity Reassurance Widget -->
+<div class="p-space-md bg-surface-container-low rounded-xl flex flex-col gap-space-sm">
+<div class="flex items-center gap-2 text-secondary">
+<span class="material-symbols-outlined text-[20px]">shield</span>
+<span class="font-label-md text-label-md font-bold uppercase tracking-wider">Institutional Guarantee</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Submissions are end-to-end encrypted and anonymous by default. Instructors view aggregated metrics only after grade submissions close.
+        </p>
+<div class="flex items-center justify-between pt-1">
+<a class="font-label-sm text-label-sm text-primary hover:underline flex items-center gap-1 font-semibold" href="#">
+<span>Read Academic Anonymity Protocol</span>
+<span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div></main></div></body></html>
